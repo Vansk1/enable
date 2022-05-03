@@ -1,0 +1,24 @@
+enable(modo privilegiado)
+  Configure terminal ( Modo de configuração Global)
+   Hostname sw-02 ( nome do Switch)
+    enable secret 123@senac ( Senha Modo privilegiado)
+     username senac secret 123@senac (Usuário e Senha de Admin)
+      Line console 0
+       login local (Habilitando a Autenticação)
+       exit (saindo da linha de console)
+      exit (saindo do modo de configuração Global)
+copy running-config starrup-config (Salvando as configuração)
+
+
+
+
+enable(modo privilegiado)
+  Configure terminal ( Modo de configuração Global)
+   Hostname sw-02 ( nome do Switch)
+    enable secret 123@senac ( Senha Modo privilegiado)
+     username senac secret 123@senac (Usuário e Senha de Admin)
+      Line console 0
+       login local (Habilitando a Autenticação)
+       exit (saindo da linha de console)
+      exit (saindo do modo de configuração Global)
+copy running-config startup-config (Salvando as configuração)
